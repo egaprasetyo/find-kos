@@ -1,0 +1,961 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <title>Nidejia | Find Kos</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+
+        <!-- Google Font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+            rel="stylesheet"
+        />
+
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+        />
+
+        <script src="tailwind.config.js"></script>
+    </head>
+
+    <body class="bg-black">
+        <header class="absolute z-20 top-[30px] inset-x-0 max-w-[1130px] mx-auto bg-[#141414] h-24 rounded-[20px] px-[30px] py-6 flex items-center justify-between">
+            <a href="#" class="flex items-center gap-3">
+                <img src="/assets/icon/logo-88.svg" alt="logo" class="size-9" />
+                <span class="text-2xl font-extrabold text-white">Nidejia</span>
+            </a>
+            <nav class="flex items-center space-x-[30px]">
+                <a href="#featured" class="font-semibold text-white group">
+                    Featured
+                    <div class="w-0 group-hover:w-full h-0.5 bg-[#FF9357] rounded-full ease-in-out duration-500"></div>
+                </a>
+                <a href="#categories" class="font-semibold text-white group">
+                    Categories
+                    <div class="w-0 group-hover:w-full h-0.5 bg-[#FF9357] rounded-full ease-in-out duration-500"></div>
+                </a>
+                <a href="#testimonials" class="font-semibold text-white group">
+                    Testimonials
+                    <div class="w-0 group-hover:w-full h-0.5 bg-[#FF9357] rounded-full ease-in-out duration-500"></div>
+                </a>
+                <a href="#about" class="font-semibold text-white group">
+                    About
+                    <div class="w-0 group-hover:w-full h-0.5 bg-[#FF9357] rounded-full ease-in-out duration-500"></div>
+                </a>
+            </nav>
+            <div class="flex items-center gap-3">
+                <a href="#sign-in" class="px-6 py-3 font-semibold text-white rounded-full bg-[#323437] hover:bg-[#323437]/80 transition duration-300">Sign In</a>
+                <a href="#sign-up" class="px-6 py-3 font-semibold text-[#141414] rounded-full bg-[#FF9357] hover:bg-[#FF9357]/80 transition duration-300">Sign Up</a>
+            </div>
+        </header> 
+        
+        <main>
+            <section id="hero" class="relative flex items-center min-h-[750px] bg-center bg-no-repeat bg-cover bg-hero-image">
+                <div class="max-w-[1130px] mx-auto grow">
+                    <div class="max-w-xl mb-[50px]">
+                        <h1 class="mb-2.5 text-[55px] font-bold text-white">Find Glorious Living And Loving Space</h1>
+                        <p class="max-w-md text-lg leading-8 text-white">Dolor house comfortable si amet with cheap price that also lorem when you need grow.</p>
+                    </div>
+                    <div class="flex items-center">
+                        <input class="text-xl text-white bg-[#141414] rounded-l-full w-1/3 pl-[30px] pr-10 py-5 placeholder:text-[#A8A8A8]" type="text" placeholder="Search by city or country...">
+                        <button class="text-xl font-semibold bg-[#FF9357] rounded-r-full px-10 py-5 hover:text-white transition duration-300">Explore</button>
+                    </div>
+                </div>
+            </section>
+            
+            <section id="featured" class="relative max-w-[1130px] mx-auto mt-[100px] pt-16">
+                <div class="absolute inset-x-0 top-[-165px] z-10 max-w-[1130px] mx-auto flex items-center bg-[#141414] h-32 rounded-[20px] px-[50px] py-6">
+                    <div class="flex items-center justify-between w-full gap-8">
+                        <div class="flex items-center justify-center gap-4">
+                            <img src="/assets/icon/kost-available.svg" alt="" class="w-[70px] h-[70px]">
+                            <div class="flex flex-col">
+                                <span class="text-[28px] font-bold text-white">382M</span>
+                                <span class="text-[#A8A8A8]">Kos Available</span>
+                            </div>
+                        </div>
+                        <div class="w-px h-20 bg-[#353535]"></div>
+                        <div class="flex items-center justify-center gap-4">
+                            <img src="/assets/icon/people-happy.svg" alt="" class="w-[70px] h-[70px]">
+                            <div class="flex flex-col">
+                                <span class="text-[28px] font-bold text-white">9/10</span>
+                                <span class="text-[#A8A8A8]">People Happy</span>
+                            </div>
+                        </div>
+                        <div class="w-px h-20 bg-[#353535]"></div>
+                        <div class="flex items-center justify-center gap-4">
+                            <img src="/assets/icon/high-security.svg" alt="" class="w-[70px] h-[70px]">
+                            <div class="flex flex-col">
+                                <span class="text-[28px] font-bold text-white">100%</span>
+                                <span class="text-[#A8A8A8]">High Security</span>
+                            </div>
+                        </div>
+                        <div class="w-px h-20 bg-[#353535]"></div>
+                        <div class="flex items-center justify-center gap-4">
+                            <img src="/assets/icon/countries.svg" alt="" class="w-[70px] h-[70px]">
+                            <div class="flex flex-col">
+                                <span class="text-[28px] font-bold text-white">183</span>
+                                <span class="text-[#A8A8A8]">Countries</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="text-center">
+                    <h2 class="font-bold text-[28px] text-white text-center">Our Latest Deals</h2>
+                    <span class="text-[#A8A8A8] text-lg text-center">Explore the beauty of architecture and living love</span>
+                </div>
+    
+                <!-- Open This For Original Card -->
+                <!-- <div class="relative flex items-center justify-between mt-[30px] gap-[30px]">
+                    <a
+                        href="#card1" 
+                        class="group overflow-hidden relative rounded-[20px] h-[350px] w-[260px] cursor-pointer" 
+                    >
+                        <img class="group-hover:scale-110 transition duration-300 ease-in-out bg-center bg-no-repeat bg-cover rounded-[20px]" src="/assets/img/webp/image-card-1.webp" alt="De Flecce">
+                        <div class="absolute bottom-0 left-0 z-10 w-full p-5">
+                            <div class="flex justify-between">
+                                <div class="max-w-[65%]">
+                                    <h3 class="text-xl font-bold text-white">De Flecce</h3>
+                                    <span class="text-sm text-white">$47,298/mo</span>
+                                </div>
+                                <span class="flex items-center gap-1 text-sm text-white"><img src="assets/icon/stars.svg" class="size-5" alt=""> 4.5/5.0</span>
+                            </div>
+                            <div class="flex items-center justify-between mt-3.5">
+                                <div class="flex items-center gap-1">
+                                    <img src="/assets/icon/format-square.svg" alt="" class="w-[18px] h-[18px]">
+                                    <span class="text-sm text-white">529 sqft</span>
+                                </div>
+                                <div class="flex items-center gap-1">
+                                    <img src="/assets/icon/profile-user.svg" alt="" class="w-[18px] h-[18px]">
+                                    <span class="text-sm text-white">3</span>
+                                </div>
+                                <div class="flex items-center gap-1">
+                                    <img src="/assets/icon/wifi.svg" alt="" class="w-[18px] h-[18px]">
+                                    <span class="text-sm text-white">10gb</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="absolute top-0 left-0 w-full h-full bg-overlay-gradient-card"></div>
+                    </a>
+                    <a
+                        href="#card2" 
+                        class="group overflow-hidden relative rounded-[20px] h-[350px] w-[260px] cursor-pointer" 
+                    >
+                        <img class="group-hover:scale-110 transition duration-300 ease-in-out bg-center bg-no-repeat bg-cover rounded-[20px]" src="/assets/img/webp/image-card-2.webp" alt="Party Every">
+    
+                        <div class="absolute bottom-0 left-0 z-10 w-full p-5">
+                            <div class="flex justify-between">
+                                <div class="max-w-[65%]">
+                                    <h3 class="text-xl font-bold text-white">Party Every</h3>
+                                    <span class="text-sm text-white">$18,983/mo</span>
+                                </div>
+                                <span class="flex items-center gap-1 text-sm text-white"><img src="assets/icon/stars.svg" class="size-5" alt=""> 4.5/5.0</span>
+                            </div>
+                            <div class="flex items-center justify-between mt-3.5">
+                                <div class="flex items-center gap-1">
+                                    <img src="/assets/icon/format-square.svg" alt="" class="w-[18px] h-[18px]">
+                                    <span class="text-sm text-white">529 sqft</span>
+                                </div>
+                                <div class="flex items-center gap-1">
+                                    <img src="/assets/icon/profile-user.svg" alt="" class="w-[18px] h-[18px]">
+                                    <span class="text-sm text-white">3</span>
+                                </div>
+                                <div class="flex items-center gap-1">
+                                    <img src="/assets/icon/wifi.svg" alt="" class="w-[18px] h-[18px]">
+                                    <span class="text-sm text-white">10gb</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="absolute top-0 left-0 w-full h-full bg-overlay-gradient-card"></div>
+                    </a>
+                    <a
+                        href="#card3" 
+                        class="group overflow-hidden relative rounded-[20px] h-[350px] w-[260px] cursor-pointer"
+                    >
+                        <img class="group-hover:scale-110 transition duration-300 ease-in-out bg-center bg-no-repeat bg-cover rounded-[20px]" src="/assets/img/webp/image-card-3.webp" alt="Brown Hall">
+    
+                        <div class="absolute bottom-0 left-0 z-10 w-full p-5">
+                            <div class="flex justify-between">
+                                <div class="max-w-[65%]">
+                                    <h3 class="text-xl font-bold text-white">Brown Hall</h3>
+                                    <span class="text-sm text-white">$84,209/mo</span>
+                                </div>
+                                <span class="flex items-center gap-1 text-sm text-white"><img src="assets/icon/stars.svg" class="size-5" alt=""> 4.5/5.0</span>
+                            </div>
+                            <div class="flex items-center justify-between mt-3.5">
+                                <div class="flex items-center gap-1">
+                                    <img src="/assets/icon/format-square.svg" alt="" class="w-[18px] h-[18px]">
+                                    <span class="text-sm text-white">529 sqft</span>
+                                </div>
+                                <div class="flex items-center gap-1">
+                                    <img src="/assets/icon/profile-user.svg" alt="" class="w-[18px] h-[18px]">
+                                    <span class="text-sm text-white">3</span>
+                                </div>
+                                <div class="flex items-center gap-1">
+                                    <img src="/assets/icon/wifi.svg" alt="" class="w-[18px] h-[18px]">
+                                    <span class="text-sm text-white">10gb</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="absolute top-0 left-0 w-full h-full bg-overlay-gradient-card"></div>
+                    </a>
+                    <a
+                        href="#card4" 
+                        class="group overflow-hidden relative rounded-[20px] h-[350px] w-[260px] cursor-pointer"
+                    >
+                        <img class="group-hover:scale-110 transition duration-300 ease-in-out bg-center bg-no-repeat bg-cover rounded-[20px]" src="/assets/img/webp/image-card-4.webp" alt="Mini Max">
+    
+                        <div class="absolute bottom-0 left-0 z-10 w-full p-5">
+                            <div class="flex justify-between">
+                                <div class="max-w-[65%]">
+                                    <h3 class="text-xl font-bold text-white">Mini Max</h3>
+                                    <span class="text-sm text-white">$14,221/mo</span>
+                                </div>
+                                <span class="flex items-center gap-1 text-sm text-white"><img src="assets/icon/stars.svg" class="size-5" alt=""> 4.5/5.0</span>
+                            </div>
+                            <div class="flex items-center justify-between mt-3.5">
+                                <div class="flex items-center gap-1">
+                                    <img src="/assets/icon/format-square.svg" alt="" class="w-[18px] h-[18px]">
+                                    <span class="text-sm text-white">529 sqft</span>
+                                </div>
+                                <div class="flex items-center gap-1">
+                                    <img src="/assets/icon/profile-user.svg" alt="" class="w-[18px] h-[18px]">
+                                    <span class="text-sm text-white">3</span>
+                                </div>
+                                <div class="flex items-center gap-1">
+                                    <img src="/assets/icon/wifi.svg" alt="" class="w-[18px] h-[18px]">
+                                    <span class="text-sm text-white">10gb</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="absolute top-0 left-0 w-full h-full bg-overlay-gradient-card"></div>
+                    </a>
+                    <button class="absolute top-[20%] right-[-30px] z-10 flex items-center justify-center size-[50px] rounded-full bg-[#141414]">
+                        <img src="/assets/icon/arrow-right.svg" alt="" class="size-6">
+                    </button>
+                    <button class="absolute top-[20%] left-[-30px] z-10 flex items-center justify-center size-[50px] rounded-full bg-[#141414]">
+                        <img src="/assets/icon/arrow-left.svg" alt="" class="size-6">
+                    </button>
+                </div> -->
+
+                <!-- Slider Card -->
+                <div class="relative mt-[30px]">
+                    <div class="swiper mySwiper">
+                        <div class="relative swiper-wrapper">
+                            <a
+                                href="#card1" 
+                                class="swiper-slide group overflow-hidden relative rounded-[20px] h-[350px] w-[260px] cursor-pointer" 
+                            >
+                                <img class="group-hover:scale-110 transition duration-300 ease-in-out bg-center bg-no-repeat bg-cover rounded-[20px]" src="/assets/img/webp/image-card-1.webp" alt="De Flecce">
+                                <div class="absolute bottom-0 left-0 z-10 w-full p-5">
+                                    <div class="flex justify-between">
+                                        <div class="max-w-[65%]">
+                                            <h3 class="text-xl font-bold text-white">De Flecce</h3>
+                                            <span class="text-sm text-white">$47,298/mo</span>
+                                        </div>
+                                        <span class="flex items-center gap-1 text-sm text-white"><img src="assets/icon/stars.svg" class="size-5" alt=""> 4.5/5.0</span>
+                                    </div>
+                                    <div class="flex items-center justify-between mt-3.5">
+                                        <div class="flex items-center gap-1">
+                                            <img src="/assets/icon/format-square.svg" alt="" class="w-[18px] h-[18px]">
+                                            <span class="text-sm text-white">529 sqft</span>
+                                        </div>
+                                        <div class="flex items-center gap-1">
+                                            <img src="/assets/icon/profile-user.svg" alt="" class="w-[18px] h-[18px]">
+                                            <span class="text-sm text-white">3</span>
+                                        </div>
+                                        <div class="flex items-center gap-1">
+                                            <img src="/assets/icon/wifi.svg" alt="" class="w-[18px] h-[18px]">
+                                            <span class="text-sm text-white">10gb</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="absolute top-0 left-0 w-full h-full bg-overlay-gradient-card"></div>
+                            </a>
+                            <a
+                                href="#card2" 
+                                class="swiper-slide group overflow-hidden relative rounded-[20px] h-[350px] w-[260px] cursor-pointer" 
+                            >
+                                <img class="group-hover:scale-110 transition duration-300 ease-in-out bg-center bg-no-repeat bg-cover rounded-[20px]" src="/assets/img/webp/image-card-2.webp" alt="Party Every">
+            
+                                <div class="absolute bottom-0 left-0 z-10 w-full p-5">
+                                    <div class="flex justify-between">
+                                        <div class="max-w-[65%]">
+                                            <h3 class="text-xl font-bold text-white">Party Every</h3>
+                                            <span class="text-sm text-white">$18,983/mo</span>
+                                        </div>
+                                        <span class="flex items-center gap-1 text-sm text-white"><img src="assets/icon/stars.svg" class="size-5" alt=""> 4.5/5.0</span>
+                                    </div>
+                                    <div class="flex items-center justify-between mt-3.5">
+                                        <div class="flex items-center gap-1">
+                                            <img src="/assets/icon/format-square.svg" alt="" class="w-[18px] h-[18px]">
+                                            <span class="text-sm text-white">529 sqft</span>
+                                        </div>
+                                        <div class="flex items-center gap-1">
+                                            <img src="/assets/icon/profile-user.svg" alt="" class="w-[18px] h-[18px]">
+                                            <span class="text-sm text-white">3</span>
+                                        </div>
+                                        <div class="flex items-center gap-1">
+                                            <img src="/assets/icon/wifi.svg" alt="" class="w-[18px] h-[18px]">
+                                            <span class="text-sm text-white">10gb</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="absolute top-0 left-0 w-full h-full bg-overlay-gradient-card"></div>
+                            </a>
+                            <a
+                                href="#card3" 
+                                class="swiper-slide group overflow-hidden relative rounded-[20px] h-[350px] w-[260px] cursor-pointer"
+                            >
+                                <img class="group-hover:scale-110 transition duration-300 ease-in-out bg-center bg-no-repeat bg-cover rounded-[20px]" src="/assets/img/webp/image-card-3.webp" alt="Brown Hall">
+            
+                                <div class="absolute bottom-0 left-0 z-10 w-full p-5">
+                                    <div class="flex justify-between">
+                                        <div class="max-w-[65%]">
+                                            <h3 class="text-xl font-bold text-white">Brown Hall</h3>
+                                            <span class="text-sm text-white">$84,209/mo</span>
+                                        </div>
+                                        <span class="flex items-center gap-1 text-sm text-white"><img src="assets/icon/stars.svg" class="size-5" alt=""> 4.5/5.0</span>
+                                    </div>
+                                    <div class="flex items-center justify-between mt-3.5">
+                                        <div class="flex items-center gap-1">
+                                            <img src="/assets/icon/format-square.svg" alt="" class="w-[18px] h-[18px]">
+                                            <span class="text-sm text-white">529 sqft</span>
+                                        </div>
+                                        <div class="flex items-center gap-1">
+                                            <img src="/assets/icon/profile-user.svg" alt="" class="w-[18px] h-[18px]">
+                                            <span class="text-sm text-white">3</span>
+                                        </div>
+                                        <div class="flex items-center gap-1">
+                                            <img src="/assets/icon/wifi.svg" alt="" class="w-[18px] h-[18px]">
+                                            <span class="text-sm text-white">10gb</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="absolute top-0 left-0 w-full h-full bg-overlay-gradient-card"></div>
+                            </a>
+                            <a
+                                href="#card4" 
+                                class="swiper-slide group overflow-hidden relative rounded-[20px] h-[350px] w-[260px] cursor-pointer"
+                            >
+                                <img class="group-hover:scale-110 transition duration-300 ease-in-out bg-center bg-no-repeat bg-cover rounded-[20px]" src="/assets/img/webp/image-card-4.webp" alt="Mini Max">
+            
+                                <div class="absolute bottom-0 left-0 z-10 w-full p-5">
+                                    <div class="flex justify-between">
+                                        <div class="max-w-[65%]">
+                                            <h3 class="text-xl font-bold text-white">Mini Max</h3>
+                                            <span class="text-sm text-white">$14,221/mo</span>
+                                        </div>
+                                        <span class="flex items-center gap-1 text-sm text-white"><img src="assets/icon/stars.svg" class="size-5" alt=""> 4.5/5.0</span>
+                                    </div>
+                                    <div class="flex items-center justify-between mt-3.5">
+                                        <div class="flex items-center gap-1">
+                                            <img src="/assets/icon/format-square.svg" alt="" class="w-[18px] h-[18px]">
+                                            <span class="text-sm text-white">529 sqft</span>
+                                        </div>
+                                        <div class="flex items-center gap-1">
+                                            <img src="/assets/icon/profile-user.svg" alt="" class="w-[18px] h-[18px]">
+                                            <span class="text-sm text-white">3</span>
+                                        </div>
+                                        <div class="flex items-center gap-1">
+                                            <img src="/assets/icon/wifi.svg" alt="" class="w-[18px] h-[18px]">
+                                            <span class="text-sm text-white">10gb</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="absolute top-0 left-0 w-full h-full bg-overlay-gradient-card"></div>
+                            </a>
+                            <a
+                                href="#card1" 
+                                class="swiper-slide group overflow-hidden relative rounded-[20px] h-[350px] w-[260px] cursor-pointer" 
+                            >
+                                <img class="group-hover:scale-110 transition duration-300 ease-in-out bg-center bg-no-repeat bg-cover rounded-[20px]" src="/assets/img/webp/image-card-1.webp" alt="De Flecce">
+                                <div class="absolute bottom-0 left-0 z-10 w-full p-5">
+                                    <div class="flex justify-between">
+                                        <div class="max-w-[65%]">
+                                            <h3 class="text-xl font-bold text-white">De Flecce</h3>
+                                            <span class="text-sm text-white">$47,298/mo</span>
+                                        </div>
+                                        <span class="flex items-center gap-1 text-sm text-white"><img src="assets/icon/stars.svg" class="size-5" alt=""> 4.5/5.0</span>
+                                    </div>
+                                    <div class="flex items-center justify-between mt-3.5">
+                                        <div class="flex items-center gap-1">
+                                            <img src="/assets/icon/format-square.svg" alt="" class="w-[18px] h-[18px]">
+                                            <span class="text-sm text-white">529 sqft</span>
+                                        </div>
+                                        <div class="flex items-center gap-1">
+                                            <img src="/assets/icon/profile-user.svg" alt="" class="w-[18px] h-[18px]">
+                                            <span class="text-sm text-white">3</span>
+                                        </div>
+                                        <div class="flex items-center gap-1">
+                                            <img src="/assets/icon/wifi.svg" alt="" class="w-[18px] h-[18px]">
+                                            <span class="text-sm text-white">10gb</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="absolute top-0 left-0 w-full h-full bg-overlay-gradient-card"></div>
+                            </a>
+                            <a
+                                href="#card2" 
+                                class="swiper-slide group overflow-hidden relative rounded-[20px] h-[350px] w-[260px] cursor-pointer" 
+                            >
+                                <img class="group-hover:scale-110 transition duration-300 ease-in-out bg-center bg-no-repeat bg-cover rounded-[20px]" src="/assets/img/webp/image-card-2.webp" alt="Party Every">
+            
+                                <div class="absolute bottom-0 left-0 z-10 w-full p-5">
+                                    <div class="flex justify-between">
+                                        <div class="max-w-[65%]">
+                                            <h3 class="text-xl font-bold text-white">Party Every</h3>
+                                            <span class="text-sm text-white">$18,983/mo</span>
+                                        </div>
+                                        <span class="flex items-center gap-1 text-sm text-white"><img src="assets/icon/stars.svg" class="size-5" alt=""> 4.5/5.0</span>
+                                    </div>
+                                    <div class="flex items-center justify-between mt-3.5">
+                                        <div class="flex items-center gap-1">
+                                            <img src="/assets/icon/format-square.svg" alt="" class="w-[18px] h-[18px]">
+                                            <span class="text-sm text-white">529 sqft</span>
+                                        </div>
+                                        <div class="flex items-center gap-1">
+                                            <img src="/assets/icon/profile-user.svg" alt="" class="w-[18px] h-[18px]">
+                                            <span class="text-sm text-white">3</span>
+                                        </div>
+                                        <div class="flex items-center gap-1">
+                                            <img src="/assets/icon/wifi.svg" alt="" class="w-[18px] h-[18px]">
+                                            <span class="text-sm text-white">10gb</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="absolute top-0 left-0 w-full h-full bg-overlay-gradient-card"></div>
+                            </a>
+                            <a
+                                href="#card3" 
+                                class="swiper-slide group overflow-hidden relative rounded-[20px] h-[350px] w-[260px] cursor-pointer"
+                            >
+                                <img class="group-hover:scale-110 transition duration-300 ease-in-out bg-center bg-no-repeat bg-cover rounded-[20px]" src="/assets/img/webp/image-card-3.webp" alt="Brown Hall">
+            
+                                <div class="absolute bottom-0 left-0 z-10 w-full p-5">
+                                    <div class="flex justify-between">
+                                        <div class="max-w-[65%]">
+                                            <h3 class="text-xl font-bold text-white">Brown Hall</h3>
+                                            <span class="text-sm text-white">$84,209/mo</span>
+                                        </div>
+                                        <span class="flex items-center gap-1 text-sm text-white"><img src="assets/icon/stars.svg" class="size-5" alt=""> 4.5/5.0</span>
+                                    </div>
+                                    <div class="flex items-center justify-between mt-3.5">
+                                        <div class="flex items-center gap-1">
+                                            <img src="/assets/icon/format-square.svg" alt="" class="w-[18px] h-[18px]">
+                                            <span class="text-sm text-white">529 sqft</span>
+                                        </div>
+                                        <div class="flex items-center gap-1">
+                                            <img src="/assets/icon/profile-user.svg" alt="" class="w-[18px] h-[18px]">
+                                            <span class="text-sm text-white">3</span>
+                                        </div>
+                                        <div class="flex items-center gap-1">
+                                            <img src="/assets/icon/wifi.svg" alt="" class="w-[18px] h-[18px]">
+                                            <span class="text-sm text-white">10gb</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="absolute top-0 left-0 w-full h-full bg-overlay-gradient-card"></div>
+                            </a>
+                            <a
+                                href="#card4" 
+                                class="swiper-slide group overflow-hidden relative rounded-[20px] h-[350px] w-[260px] cursor-pointer"
+                            >
+                                <img class="group-hover:scale-110 transition duration-300 ease-in-out bg-center bg-no-repeat bg-cover rounded-[20px]" src="/assets/img/webp/image-card-4.webp" alt="Mini Max">
+            
+                                <div class="absolute bottom-0 left-0 z-10 w-full p-5">
+                                    <div class="flex justify-between">
+                                        <div class="max-w-[65%]">
+                                            <h3 class="text-xl font-bold text-white">Mini Max</h3>
+                                            <span class="text-sm text-white">$14,221/mo</span>
+                                        </div>
+                                        <span class="flex items-center gap-1 text-sm text-white"><img src="assets/icon/stars.svg" class="size-5" alt=""> 4.5/5.0</span>
+                                    </div>
+                                    <div class="flex items-center justify-between mt-3.5">
+                                        <div class="flex items-center gap-1">
+                                            <img src="/assets/icon/format-square.svg" alt="" class="w-[18px] h-[18px]">
+                                            <span class="text-sm text-white">529 sqft</span>
+                                        </div>
+                                        <div class="flex items-center gap-1">
+                                            <img src="/assets/icon/profile-user.svg" alt="" class="w-[18px] h-[18px]">
+                                            <span class="text-sm text-white">3</span>
+                                        </div>
+                                        <div class="flex items-center gap-1">
+                                            <img src="/assets/icon/wifi.svg" alt="" class="w-[18px] h-[18px]">
+                                            <span class="text-sm text-white">10gb</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="absolute top-0 left-0 w-full h-full bg-overlay-gradient-card"></div>
+                            </a>
+                        </div>
+                    </div>
+                    <button class="swiper-button-next-custom absolute top-[20%] right-[-30px] z-10 flex items-center justify-center size-[50px] rounded-full bg-[#141414]">
+                        <img src="/assets/icon/arrow-right.svg" alt="" class="size-6">
+                    </button>
+                    <button class="swiper-button-prev-custom absolute top-[20%] left-[-30px] z-10 flex items-center justify-center size-[50px] rounded-full bg-[#141414]">
+                        <img src="/assets/icon/arrow-left.svg" alt="" class="size-6">
+                    </button>
+                </div>
+            </section>
+    
+            <section id="categories" class="h-[401px] bg-[#141414] flex flex-col items-center justify-center my-[100px]">
+                <div class="max-w-[1130px] mx-auto flex flex-col items-between justify-between gap-[30px]">
+                    <div class="flex items-center justify-between">
+                        <div>
+                            <h2 class="font-bold text-[28px] text-white">Categories</h2>
+                            <span class="text-[#A8A8A8] text-lg">We provide everything</span>
+                        </div>
+                        <a href="#explore-all" class="py-3 px-6 font-semibold rounded-full bg-[#FF9357] hover:bg-[#FF9357]/80 transition duration-300">Explore All</a>
+                    </div>
+                    <div class="flex items-center justify-between gap-[30px]">
+                        <div class="h-[86px] w-[260px] rounded-[20px] bg-[#202020] px-5 py-4">
+                            <div class="flex items-center gap-4">
+                                <img class="size-9" src="assets/icon/star-hills.svg" alt="">
+                                <div>
+                                    <h3 class="text-xl font-bold text-white capitalize">Stars Hills</h3>
+                                    <span class="text-[#A8A8A8]">18,394</span>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="h-[86px] w-[260px] rounded-[20px] bg-[#202020] px-5 py-4">
+                            <div class="flex items-center gap-4">
+                                <img class="size-9" src="assets/icon/apartment.svg" alt="">
+                                <div>
+                                    <h3 class="text-xl font-bold text-white capitalize">Apartment</h3>
+                                    <span class="text-[#A8A8A8]">18,394</span>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="h-[86px] w-[260px] rounded-[20px] bg-[#202020] px-5 py-4">
+                            <div class="flex items-center gap-4">
+                                <img class="size-9" src="assets/icon/house-2.svg" alt="">
+                                <div>
+                                    <h3 class="text-xl font-bold text-white capitalize">Nearby City</h3>
+                                    <span class="text-[#A8A8A8]">18,394</span>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="h-[86px] w-[260px] rounded-[20px] bg-[#202020] px-5 py-4">
+                            <div class="flex items-center gap-4">
+                                <img class="size-9" src="assets/icon/building-4.svg" alt="">
+                                <div>
+                                    <h3 class="text-xl font-bold text-white capitalize">Landed House</h3>
+                                    <span class="text-[#A8A8A8]">18,394</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex items-center justify-between gap-[30px]">
+                        <div class="h-[86px] w-[260px] rounded-[20px] bg-[#202020] px-5 py-4">
+                            <div class="flex items-center gap-4">
+                                <img class="size-9" src="assets/icon/airplane.svg" alt="">
+                                <div>
+                                    <h3 class="text-xl font-bold text-white capitalize">Airport</h3>
+                                    <span class="text-[#A8A8A8]">18,394</span>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="h-[86px] w-[260px] rounded-[20px] bg-[#202020] px-5 py-4">
+                            <div class="flex items-center gap-4">
+                                <img class="size-9" src="assets/icon/cup.svg" alt="">
+                                <div>
+                                    <h3 class="text-xl font-bold text-white capitalize">Awards</h3>
+                                    <span class="text-[#A8A8A8]">18,394</span>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="h-[86px] w-[260px] rounded-[20px] bg-[#202020] px-5 py-4">
+                            <div class="flex items-center gap-4">
+                                <img class="size-9" src="assets/icon/sun-fog.svg" alt="">
+                                <div>
+                                    <h3 class="text-xl font-bold text-white capitalize">Sunset</h3>
+                                    <span class="text-[#A8A8A8]">18,394</span>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="h-[86px] w-[260px] rounded-[20px] bg-[#202020] px-5 py-4">
+                            <div class="flex items-center gap-4">
+                                <img class="size-9" src="assets/icon/element-equal.svg" alt="">
+                                <div>
+                                    <h3 class="text-xl font-bold text-white capitalize">Others</h3>
+                                    <span class="text-[#A8A8A8]">18,394</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    
+            <section id="benefits" class="max-w-[1130px] mx-auto">
+                <div class="flex items-center justify-between">
+                    <div class="flex flex-col justify-between gap-[30px]">
+                        <h2 class="font-bold text-white text-[28px]">Huge Benefits That Make You Feel Happier</h2>
+                        <ul class="flex flex-col gap-5">
+                            <li class="flex items-center gap-3 text-lg font-semibold text-white">
+                                <img src="assets/icon/tick-circle.svg" class="size-8" alt="">
+                                Checking faster without depositing
+                            </li>
+                            <li class="flex items-center gap-3 text-lg font-semibold text-white">
+                                <img src="assets/icon/tick-circle.svg" class="size-8" alt="">
+                                24/7 security guarding your place
+                            </li>
+                            <li class="flex items-center gap-3 text-lg font-semibold text-white">
+                                <img src="assets/icon/tick-circle.svg" class="size-8" alt="">
+                                Fast-internet access without lagging
+                            </li>
+                            <li class="flex items-center gap-3 text-lg font-semibold text-white">
+                                <img src="assets/icon/tick-circle.svg" class="size-8" alt="">
+                                High standard of layout of houses
+                            </li>
+                            <li class="flex items-center gap-3 text-lg font-semibold text-white">
+                                <img src="assets/icon/tick-circle.svg" class="size-8" alt="">
+                                All other benefits, we promise
+                            </li>
+                        </ul>
+                        <div class="flex items-center gap-3.5">
+                            <button class="flex items-center gap-2.5 px-6 py-3 bg-[#FF9357] rounded-full font-semibold hover:bg-[#FF9357]/80 transition duration-300">
+                                <img src="/assets/icon/message-notif.svg" alt="">
+                                Call Sales
+                            </button>
+                            <a href="#all-benefits" class="px-6 py-3 bg-[#323437] text-white rounded-full font-semibold hover:bg-[#323437]/80 transition duration-300">
+                                All Benefits
+                            </a>
+                        </div>
+                    </div>
+    
+                    <div class="flex flex-col gap-[30px]">
+                        <div class="flex justify-between items-center gap-[30px]">
+                            <a
+                                href="#card5" 
+                                class="group overflow-hidden relative rounded-[24px] h-[200px] w-[310px] cursor-pointer" 
+                            >
+                                <img class="group-hover:scale-110 transition duration-300 ease-in-out bg-center bg-no-repeat bg-cover rounded-[24px]" src="/assets/img/webp/image-card-5.webp" alt="House for Office and Living">
+                                <div class="absolute bottom-0 left-0 z-10 w-full p-5">
+                                    <div class="flex items-center justify-between">
+                                        <h3 class="text-xl font-bold text-white max-w-[70%]">House for Office and Living</h3>
+                                        <div class="flex items-center gap-1">
+                                            <img src="/assets/icon/profile-user.svg" alt="" class="w-[18px] h-[18px]">
+                                            <span class="text-sm text-white">18,309</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="absolute top-0 left-0 w-full h-full bg-overlay-gradient-card-wide"></div>
+                            </a>
+        
+                            <a
+                                href="#card6" 
+                                class="group overflow-hidden relative rounded-[24px] h-[200px] w-[310px] cursor-pointer" 
+                            >
+                                <img class="group-hover:scale-110 transition duration-300 ease-in-out bg-center bg-no-repeat bg-cover rounded-[24px]" src="/assets/img/webp/image-card-6.webp" alt="House Nearby with Mall">
+                                <div class="absolute bottom-0 left-0 z-10 w-full p-5">
+                                    <div class="flex items-center justify-between">
+                                        <h3 class="text-xl font-bold text-white max-w-[70%]">House Nearby with Mall</h3>
+                                        <div class="flex items-center gap-1">
+                                            <img src="/assets/icon/profile-user.svg" alt="" class="w-[18px] h-[18px]">
+                                            <span class="text-sm text-white">84,209</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="absolute top-0 left-0 w-full h-full bg-overlay-gradient-card-wide"></div>
+                            </a>
+                        </div>
+                        <div class="flex justify-between items-center gap-[30px]">
+                            <a
+                                href="#card7" 
+                                class="group overflow-hidden relative rounded-[24px] h-[200px] w-[310px] cursor-pointer" 
+                            >
+                                <img class="group-hover:scale-110 transition duration-300 ease-in-out bg-center bg-no-repeat bg-cover rounded-[24px]" src="/assets/img/webp/image-card-7.webp" alt="HHouse Historical Building">
+                                <div class="absolute bottom-0 left-0 z-10 w-full p-5">
+                                    <div class="flex items-center justify-between">
+                                        <h3 class="text-xl font-bold text-white max-w-[70%]">House Historical Building</h3>
+                                        <div class="flex items-center gap-1">
+                                            <img src="/assets/icon/profile-user.svg" alt="" class="w-[18px] h-[18px]">
+                                            <span class="text-sm text-white">22,409</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="absolute top-0 left-0 w-full h-full bg-overlay-gradient-card-wide"></div>
+                            </a>
+                            <a
+                                href="#card8" 
+                                class="group overflow-hidden relative rounded-[24px] h-[200px] w-[310px] cursor-pointer" 
+                            >
+                                <img class="group-hover:scale-110 transition duration-300 ease-in-out bg-center bg-no-repeat bg-cover rounded-[24px]" src="/assets/img/webp/image-card-8.webp" alt="Landed House with Park">
+                                <div class="absolute bottom-0 left-0 z-10 w-full p-5">
+                                    <div class="flex items-center justify-between">
+                                        <h3 class="text-xl font-bold text-white max-w-[70%]">Landed House with Park</h3>
+                                        <div class="flex items-center gap-1">
+                                            <img src="/assets/icon/profile-user.svg" alt="" class="w-[18px] h-[18px]">
+                                            <span class="text-sm text-white">47,583</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="absolute top-0 left-0 w-full h-full bg-overlay-gradient-card-wide"></div>
+                            </a>
+                        </div>
+                    </div>             
+                </div>
+            </section>
+    
+            <section id="testimonials" class="max-w-[1130px] mx-auto my-[100px]">
+                <div class="text-center mb-[30px]">
+                    <h2 class="font-bold text-[28px] text-center text-white">Happy Customers</h2>
+                    <span class="text-lg text-[#A8A8AB] text-center">We’d love to come back again soon</span>
+                </div>
+    
+                <div class="grid grid-cols-3 gap-[30px]">
+                    <div class="flex flex-col gap-[30px]">
+                        <div class="py-4 px-5 flex flex-col gap-[20px] bg-[#141414] rounded-[20px]">
+                            <div class="flex items-center gap-1">
+                                <img src="/assets/icon/stars.svg" alt="">
+                                <img src="/assets/icon/stars.svg" alt="">
+                                <img src="/assets/icon/stars.svg" alt="">
+                                <img src="/assets/icon/stars.svg" alt="">
+                            </div>
+                            <p class="text-lg leading-8 text-white">
+                                I was not so sure if there was a beautiful bedroom, but it was really great experience.
+                            </p>
+                            <div class="flex items-center gap-3">
+                                <img src="/assets/img/webp/photo-profile.webp" class="size-[50px] rounded-full" alt="profile-img-1">
+                                <div class="flex flex-col gap-1">
+                                    <span class="font-bold text-white">Evelin Bie</span>
+                                    <span class="text-sm text-[#A8A8AB]">Full-Time Traveler</span>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="py-4 px-5 flex flex-col gap-[20px] bg-[#141414] rounded-[20px]">
+                            <div class="flex items-center gap-1">
+                                <img src="/assets/icon/stars.svg" class="size-5" alt="">
+                                <img src="/assets/icon/stars.svg" class="size-5" alt="">
+                                <img src="/assets/icon/stars.svg" class="size-5" alt="">
+                                <img src="/assets/icon/stars.svg" class="size-5" alt="">
+                            </div>
+                            <p class="text-lg leading-8 text-white">
+                                It’s just amazing, will be back.
+                            </p>
+                            <div class="flex items-center gap-3">
+                                <img src="/assets/img/webp/photo-profile.webp" class="size-[50px] rounded-full" alt="profile-img-1">
+                                <div class="flex flex-col gap-1">
+                                    <span class="font-bold text-white">Evelin Bie</span>
+                                    <span class="text-sm text-[#A8A8AB]">Full-Time Traveler</span>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="py-4 px-5 flex flex-col gap-[20px] bg-[#141414] rounded-[20px]">
+                            <div class="flex items-center gap-1">
+                                <img src="/assets/icon/stars.svg" class="size-5" alt="">
+                                <img src="/assets/icon/stars.svg" class="size-5" alt="">
+                                <img src="/assets/icon/stars.svg" class="size-5" alt="">
+                                <img src="/assets/icon/stars.svg" class="size-5" alt="">
+                            </div>
+                            <p class="text-lg leading-8 text-white">
+                                I was not so sure if there was a beautiful bedroom, but it was really great experience.
+                            </p>
+                            <div class="flex items-center gap-3">
+                                <img src="/assets/img/webp/photo-profile.webp" class="size-[50px] rounded-full" alt="profile-img-1">
+                                <div class="flex flex-col gap-1">
+                                    <span class="font-bold text-white">Evelin Bie</span>
+                                    <span class="text-sm text-[#A8A8AB]">Full-Time Traveler</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex flex-col gap-[30px]">
+                        <div class="py-4 px-5 flex flex-col gap-[20px] bg-[#141414] rounded-[20px]">
+                            <div class="flex items-center gap-1">
+                                <img src="/assets/icon/stars.svg" class="size-5" alt="">
+                                <img src="/assets/icon/stars.svg" class="size-5" alt="">
+                                <img src="/assets/icon/stars.svg" class="size-5" alt="">
+                                <img src="/assets/icon/stars.svg" class="size-5" alt="">
+                            </div>
+                            <p class="text-lg leading-8 text-white">
+                                Price was too low yet luxury.
+                            </p>
+                            <div class="flex items-center gap-3">
+                                <img src="/assets/img/webp/photo-profile.webp" class="size-[50px] rounded-full" alt="profile-img-1">
+                                <div class="flex flex-col gap-1">
+                                    <span class="font-bold text-white">Evelin Bie</span>
+                                    <span class="text-sm text-[#A8A8AB]">Full-Time Traveler</span>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="py-4 px-5 flex flex-col gap-[20px] bg-[#141414] rounded-[20px]">
+                            <div class="flex items-center gap-1">
+                                <img src="/assets/icon/stars.svg" class="size-5" alt="">
+                                <img src="/assets/icon/stars.svg" class="size-5" alt="">
+                                <img src="/assets/icon/stars.svg" class="size-5" alt="">
+                                <img src="/assets/icon/stars.svg" class="size-5" alt="">
+                            </div>
+                            <p class="text-lg leading-8 text-white">
+                                I was not so sure if there was a beautiful bedroom, but it was really great experience.
+                            </p>
+                            <div class="flex items-center gap-3">
+                                <img src="/assets/img/webp/photo-profile.webp" class="size-[50px] rounded-full" alt="profile-img-1">
+                                <div class="flex flex-col gap-1">
+                                    <span class="font-bold text-white">Evelin Bie</span>
+                                    <span class="text-sm text-[#A8A8AB]">Full-Time Traveler</span>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="py-4 px-5 flex flex-col gap-[20px] bg-[#141414] rounded-[20px]">
+                            <div class="flex items-center gap-1">
+                                <img src="/assets/icon/stars.svg" class="size-5" alt="">
+                                <img src="/assets/icon/stars.svg" class="size-5" alt="">
+                                <img src="/assets/icon/stars.svg" class="size-5" alt="">
+                                <img src="/assets/icon/stars.svg" class="size-5" alt="">
+                            </div>
+                            <p class="text-lg leading-8 text-white">
+                                During covid I was stayed here and I got a lot of full of supports that I need to keep my body healthy.
+                            </p>
+                            <div class="flex items-center gap-3">
+                                <img src="/assets/img/webp/photo-profile.webp" class="size-[50px] rounded-full" alt="profile-img-1">
+                                <div class="flex flex-col gap-1">
+                                    <span class="font-bold text-white">Evelin Bie</span>
+                                    <span class="text-sm text-[#A8A8AB]">Full-Time Traveler</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex flex-col gap-[30px]">
+                        <div class="py-4 px-5 flex flex-col gap-[20px] bg-[#141414] rounded-[20px]">
+                            <div class="flex items-center gap-1">
+                                <img src="/assets/icon/stars.svg" class="size-5" alt="">
+                                <img src="/assets/icon/stars.svg" class="size-5" alt="">
+                                <img src="/assets/icon/stars.svg" class="size-5" alt="">
+                                <img src="/assets/icon/stars.svg" class="size-5" alt="">
+                            </div>
+                            <p class="text-lg leading-8 text-white">
+                                I was not so sure if there was a beautiful bedroom, but it was really great experience.
+                            </p>
+                            <div class="flex items-center gap-3">
+                                <img src="/assets/img/webp/photo-profile.webp" class="size-[50px] rounded-full" alt="profile-img-1">
+                                <div class="flex flex-col gap-1">
+                                    <span class="font-bold text-white">Evelin Bie</span>
+                                    <span class="text-sm text-[#A8A8AB]">Full-Time Traveler</span>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="py-4 px-5 flex flex-col gap-[20px] bg-[#141414] rounded-[20px]">
+                            <div class="flex items-center gap-1">
+                                <img src="/assets/icon/stars.svg" class="size-5" alt="">
+                                <img src="/assets/icon/stars.svg" class="size-5" alt="">
+                                <img src="/assets/icon/stars.svg" class="size-5" alt="">
+                                <img src="/assets/icon/stars.svg" class="size-5" alt="">
+                            </div>
+                            <p class="text-lg leading-8 text-white">
+                                It’s just amazing, will be back.
+                            </p>
+                            <div class="flex items-center gap-3">
+                                <img src="/assets/img/webp/photo-profile.webp" class="size-[50px] rounded-full" alt="profile-img-1">
+                                <div class="flex flex-col gap-1">
+                                    <span class="font-bold text-white">Evelin Bie</span>
+                                    <span class="text-sm text-[#A8A8AB]">Full-Time Traveler</span>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="py-4 px-5 flex flex-col gap-[20px] bg-[#141414] rounded-[20px]">
+                            <div class="flex items-center gap-1">
+                                <img src="/assets/icon/stars.svg" class="size-5" alt="">
+                                <img src="/assets/icon/stars.svg" class="size-5" alt="">
+                                <img src="/assets/icon/stars.svg" class="size-5" alt="">
+                                <img src="/assets/icon/stars.svg" class="size-5" alt="">
+                            </div>
+                            <p class="text-lg leading-8 text-white">
+                                I was not so sure if there was a beautiful bedroom, but it was really great experience.
+                            </p>
+                            <div class="flex items-center gap-3">
+                                <img src="/assets/img/webp/photo-profile.webp" class="size-[50px] rounded-full" alt="profile-img-1">
+                                <div class="flex flex-col gap-1">
+                                    <span class="font-bold text-white">Evelin Bie</span>
+                                    <span class="text-sm text-[#A8A8AB]">Full-Time Traveler</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer id="about" class="h-[541px] py-[100px] px-[75px] bg-[#141414]">
+            <div class="max-w-[1130px] mx-auto">
+                <div class="flex justify-between">
+                    <div class="flex flex-col gap-3">
+                        <span class="font-semibold text-white">Solutions</span>
+                        <ul class="flex flex-col gap-3">
+                            <li><a href="#" class="text-[#A8A8AB] hover:text-[#FF9357] hover:font-semibold transition duration-300">Credit Rewards</a></li>
+                            <li><a href="#" class="text-[#A8A8AB] hover:text-[#FF9357] hover:font-semibold transition duration-300">P2P Renting</a></li>
+                            <li><a href="#" class="text-[#A8A8AB] hover:text-[#FF9357] hover:font-semibold transition duration-300">Open for Listing</a></li>
+                            <li><a href="#" class="text-[#A8A8AB] hover:text-[#FF9357] hover:font-semibold transition duration-300">AI Automation</a></li>
+                            <li><a href="#" class="text-[#A8A8AB] hover:text-[#FF9357] hover:font-semibold transition duration-300">APIs Developer</a></li>
+                        </ul>
+                    </div>
+                    <div class="flex flex-col gap-3">
+                        <span class="font-semibold text-white">Products</span>
+                        <ul class="flex flex-col gap-3">
+                            <li><a href="#" class="text-[#A8A8AB] hover:text-[#FF9357] hover:font-semibold transition duration-300">Featured House</a></li>
+                            <li><a href="#" class="text-[#A8A8AB] hover:text-[#FF9357] hover:font-semibold transition duration-300">Browse Categories</a></li>
+                            <li><a href="#" class="text-[#A8A8AB] hover:text-[#FF9357] hover:font-semibold transition duration-300">Special Awards</a></li>
+                            <li><a href="#" class="text-[#A8A8AB] hover:text-[#FF9357] hover:font-semibold transition duration-300">Made-In Bandung</a></li>
+                            <li><a href="#" class="text-[#A8A8AB] hover:text-[#FF9357] hover:font-semibold transition duration-300">Exclusive Style</a></li>
+                        </ul>
+                    </div>
+                    <div class="flex flex-col gap-3">
+                        <span class="font-semibold text-white">Company</span>
+                        <ul class="flex flex-col gap-3">
+                            <li><a href="#" class="text-[#A8A8AB] hover:text-[#FF9357] hover:font-semibold transition duration-300">About Us</a></li>
+                            <li><a href="#" class="text-[#A8A8AB] hover:text-[#FF9357] hover:font-semibold transition duration-300">Our Investors</a></li>
+                            <li><a href="#" class="text-[#A8A8AB] hover:text-[#FF9357] hover:font-semibold transition duration-300">Missions 2024</a></li>
+                            <li><a href="#" class="text-[#A8A8AB] hover:text-[#FF9357] hover:font-semibold transition duration-300">Careers</a></li>
+                            <li><a href="#" class="text-[#A8A8AB] hover:text-[#FF9357] hover:font-semibold transition duration-300">Media Press</a></li>
+                        </ul>
+                    </div>
+                    <div class="flex flex-col">
+                        <span class="mb-3 font-semibold text-white">Subscribe & Free Rewards</span>
+                        <div class="relative w-[446px] mb-[30px]">
+                            <img src="/assets/icon/sms.svg" class="absolute top-3 left-[20px] size-6" alt="">
+                            <input type="text" placeholder="Email Address" class="py-3 pl-[54px] pr-[65px] rounded-l-full w-[367px] focus:outline-0 placeholder:text-[#7D7B91]">
+                            <button class="absolute bottom-0 right-0 py-3 px-6 font-semibold rounded-full bg-[#FF9357] hover:text-white transition duration-300">Subscribe</button>
+                        </div>
+                        <span class="mb-3 font-semibold text-white">Choose Language</span>
+                        <div class="flex items-center gap-[10px] w-[160px]">
+                            <img src="/assets/icon/United Kingdom (GB).svg" class="w-[26.67px] h-[20px]" alt="">
+                            <select name="language" id="language" class="text-white bg-transparent cursor-pointer">
+                                <option value="english" selected class="text-black">English (UK)</option>
+                                <option value="indonesia" class="text-black">Indonesia</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <hr class="my-[50px] border-[#353535]">
+                <div class="flex items-center justify-between">
+                    <a href="#" class="flex items-center gap-3">
+                        <img src="/assets/icon/logo-88.svg" alt="logo" class="size-9" />
+                        <span class="text-2xl font-extrabold text-white">Nidejia</span>
+                    </a>
+                    <span class="text-[#A8A8A8]">All Rights Reserved Nidejia BuildWithAngga 2024</span>
+                </div>
+            </div>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script src="index.js"></script>
+
+    </body>
+</html>
